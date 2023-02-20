@@ -1,9 +1,13 @@
 function AllImageRouned(options) {
-    const getImages = document.querySelector('img');
-    if (options) {
-        getImages.style.borderRadius='100%';
-    }else{
-        getImages.style.borderRadius = 0;
+    const getImages = document.getElementsByTagName('img');
+    for (let i = 0; i < getImages.length; i++) {
+        let element = getImages[i];
+        
+        if (options) {
+            element.style.borderRadius='100%';
+        }else{
+            element.style.borderRadius = 0;
+        }
     }
 }
 

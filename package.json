@@ -1,0 +1,19 @@
+{
+  "name": "allimagesroundedcircle",
+  "version": "1.1.0",
+  "description": "Get all images rounded every time for the non-designer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://anishmansuri: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@github.com/anishmansuri/allimagerounded.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anishmansuri/allimagerounded/issues"
+  },
+  "homepage": "https://github.com/anishmansuri/allimagerounded#readme"
+}
