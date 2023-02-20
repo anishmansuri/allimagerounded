@@ -1,4 +1,4 @@
-function AllImageRouned(options) {
+module.exports  =  function AllImageRouned(options) {
     const getImages = document.getElementsByTagName('img');
     for (let i = 0; i < getImages.length; i++) {
         let element = getImages[i];
@@ -10,5 +10,3 @@ function AllImageRouned(options) {
         }
     }
 }
-
-module.export.AllImageRouned = AllImageRouned
