@@ -9,9 +9,7 @@ Get all images rounded every time for the non-designer
 ```
 import {AllImageRouned} from 'allimagerounded';
 
-AllImageRouned({
-    option:true;
-});
+AllImageRouned(true)
 
 ```
 
